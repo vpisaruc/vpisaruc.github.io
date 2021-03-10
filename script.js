@@ -7,8 +7,8 @@ en : {
   fio: "Pisaruc Victor",
   bio: "23 years old<br>Higher education<br>Moscow<br>Citezenship: Republic of Moldova",
   w_exp: "Work experience",
-  w_pl1: "<span>11.2020 - Present</span> <strong>«HOME.RF Bank»</strong> <br> <strong>Department:</strong> Mortgage business <br> <strong>Position:</strong> Head of department",
-  jd_1: "<p><strong>Duties:</strong></p> <ul class=\"job-description\"> <li>Launching cross-selling model on a mortgage process</li> <li>Creation of a process of logging work with a mortgage application</li> <li>Calculating financial metrics: CR, CD, EL, EVA, ROA etc.</li> <li>Creation of analytical dashboards</li> <li>Managing a business-analysts team</li> <li>Managing teamwork in Jira, Confluence</li> <li>Participation in budget assessment of a business unit</li> </ul>",
+  w_pl1: "<span>11.2020 - Present</span> <strong>DOM.RF Bank»</strong> <br> <strong>Department:</strong> Mortgage business <br> <strong>Position:</strong> Head of department",
+  jd_1: "<p><strong>Duties:</strong></p> <ul class=\"job-description\"> <li>Launching cross-selling model on a mortgage process</li> <li>Creation of a process of logging work with a mortgage application</li> <li>Calculation of financial metrics: CR, CD, EL, EVA, ROA etc.</li> <li>Creation of analytical dashboards</li> <li>Managing a business-analysts team</li> <li>Managing teamwork in Jira, Confluence</li> <li>Participation in budget assessment of a business unit</li> </ul>",
   w_pl2: "<span>08.2020 - 11.2020</span> <strong>«Tinkoff Bank»</strong> <br> <strong>Department:</strong> IT Development division <br> <strong >Position:</strong> Business analyst ",
   jd_2: `<p><strong>Duties:</strong></p>
       <ul class="job-description">
@@ -24,7 +24,7 @@ en : {
         <li>Creation of business specifications</li>
         <li>Data marts creation </li>
         <li>Reports creation and optimization </li>
-        <li>Optimization of data models</li>
+        <li>Data models optimization</li>
       </ul>`,
   w_pl4:"<span>06.2019 - 08.2019</span> <strong>«Netinfo»</strong>  <br> <strong>Position:</strong> Data Analyst Trainee",
   jd_4: `<p><strong>Duties:</strong></p>
@@ -73,7 +73,7 @@ en : {
       <div class='column'>
         <ul class="job-description">
           <li>Programming languages at an advanced level: Python, C/C++, C#</li>
-          <li>Advanced user of visualization tools SAP and Tableau</li>
+          <li>Advanced user of visualization tools: SAP and Tableau</li>
           <li>Working with api methods: Postman, SoapUI, BloomRPC </li>
                   <li>Good knowledge of IDEF0-diagrams, UML-diagrams,bpmn-notation</li>
           <li>Jira, Confluence skills and their internal configuration </li>
@@ -86,9 +86,9 @@ en : {
           <li>Ability to decompose and delegate tasks </li>
                   <li>Machine learning skills </li>
           <li>Knowledge of the main programming paradigms: Imperative, Object Oriented, Functional and Logical </li>
-          <li>Confident user of the Git version control tool</li>
+          <li>Strong user of the Git version control tool</li>
           <li>Linux systems administration </li>
-          <li>Advanced MS Office user</li>
+          <li>Strong user of MS Office</li>
         </ul>
       </div>
     </div>
