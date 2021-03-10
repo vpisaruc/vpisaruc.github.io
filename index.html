@@ -1,3 +1,9 @@
+<!--
+* сделать нормальный переключатель языков
+* добавить анимацию на сайт
+* закрепить верхнюю часть сайта, чтобы ходила вместе со скроллом
+-->
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -8,13 +14,18 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img_1.png" type="image/png">
+    <script src="script.js"></script>
   </head>
   <body>
+
     <header>
+        <a href="#ru" class="fab1" data-reload>RU</a>
+        <a href="#en" class="fab1" data-reload>EN</a>
       <div>
         <img src="./avatar.png" />
       </div>
-      <h1>Писарук Виктор</h1> <h2>23 года<br>Высшее образование<br>Москва<br>Гражданство: Молдова</h2>
+      <h1 id="fio" >Писарук Виктор</h1> <h2 id = "bio"> 23 года<br>Высшее образование<br>Москва<br>Гражданство: Молдова</h2>
       <section>
         <a href="tel: +79690524677" target="_blank">
             <i class="fab fa fa-phone"></i>
@@ -35,17 +46,17 @@
     </header>
     <main>
       <section>
-        <h3>Опыт работы</h3>
+        <h3 id="w_exp">Опыт работы</h3>
         <article>
-          <div class='job-title'>
+          <div class='job-title' id="w_pl1">
             <span>11.2020 - Н. В.</span> <strong>АО «Банк ДОМ.РФ»</strong> <br> <strong>Отдел:</strong> Проекты ипотечного бизнеса <br> <strong>Позиция:</strong> Руководитель направления
           </div>
-          <div>
+          <div id="jd_1"> 
             <p><strong>Обязанности:</strong></p>
             <ul class="job-description">
               <li>Запуск процесса кросс продаж розничных продуктов на ипотечном пути</li>
               <li>Построения процесса логирования работы с ипотечной заявкой</li>
-              <li>Расчет экономических метрик CR, CD, EL, EVA, ROA и др.</li>
+              <li>Расчет финансовых метрик CR, CD, EL, EVA, ROA и др.</li>
               <li>Построение аналитической отчетности </li>
               <li>Управление командой бизнес-аналитиков</li>
               <li>Организация работы команды в Jira, Confluence</li>
@@ -54,10 +65,10 @@
           </div>
         </article>
         <article>
-          <div class='job-title'>
+          <div class='job-title' id="w_pl2">
             <span>08.2020 - 11.2020</span> <strong>АО «Тинькофф Банк»</strong> <br> <strong>Отдел:</strong> Отдел развития <br> <strong>Позиция:</strong> Бизнес-аналитик
           </div>
-          <div>
+          <div id="jd_2">
             <p><strong>Обязанности:</strong></p>
             <ul class="job-description">
               <li>Улучшение архитектуры внутренней CRM</li>
@@ -70,10 +81,10 @@
           </div>
         </article>
         <article>
-          <div class='job-title'>
+          <div class='job-title' id="w_pl3">
             <span>02.2020 - 07.2020</span> <strong>АО «Тинькофф Банк»</strong> <br> <strong>Отдел:</strong> DWH <br> <strong>Позиция:</strong> Бизнес-аналитик
           </div>
-          <div>
+          <div id="jd_3">
             <p><strong>Обязанности:</strong></p>
             <ul class="job-description">
               <li>Описание бизнес-процессов</li>
@@ -84,10 +95,10 @@
           </div>
         </article>
 		<article>
-          <div class='job-title'>
+          <div class='job-title' id="w_pl4">
             <span>06.2019 - 08.2019</span> <strong>ООО «Нетинфо»</strong>  <br> <strong>Позиция:</strong> Стажер Аналитик Данных
           </div>
-          <div>
+          <div id="jd_4">
             <p><strong>Обязанности:</strong></p>
             <ul class="job-description">
               <li>Анализ эффективности трейдеров, отраслевых тенденций и позиционирования трейдеров</li>
@@ -96,7 +107,7 @@
           </div>
         </article>
       </section>
-      <section>
+      <section id="ed">
         <h3>Образование</h3>
         <article>
           <div class='school'>
@@ -107,7 +118,7 @@
           </div>
         </article>
       </section>
-      <section>
+      <section id="add_ed">
         <h3>Дополнительное образование</h3>
         <article class='course'>
           <div class='title'>
@@ -135,7 +146,7 @@
         </article>
 
       </section>
-      <section>
+      <section id ="skills">
         <h3>Профессиональные навыки</h3>
           <div>
             <div class='column'>
@@ -143,16 +154,16 @@
                 <li>Языки программирования на уверенном уровне: Python, C/C++, C#</li>
                 <li>Продвинутый пользователь инструментов визуализации SAP и Tableau</li>
                 <li>Работа с api-методами: Postman, SoapUI, BloomRPC</li>
-				<li>Знание IDEF0, UML-диаграмм,bpm-нотаций</li>
+				        <li>Знание IDEF0, UML-диаграмм,bpm-нотаций</li>
                 <li>Навыки работы в Jira, Confluence и его внутренняя настройка</li>
                 <li>Уверенное знание SQL</li>
                 <li>Работа с реляционными базами данных: MySQL, MsSQL, Oracle, PostgreSQL, GreenPlum</li>
                 <li>Работа с большими данными: Hadoop, Hive</li>
                 <li>Работа с нереляционными базами данных: Casandra</li>
-                <li>Знание основных экономических метрик</li>
+                <li>Знание основных финансовых метрик</li>
                 <li>Запуск и оценка А/Б тестов</li>
                 <li>Умение декомпозировать и делегировать задачи</li>
-				<li>Навыки работы с машинным обучением</li>
+				        <li>Навыки работы с машинным обучением</li>
                 <li>Знание основных парадигм программирования: Императивного, Объектно Ориентированного, Функционального и Логического</li>
                 <li>Уверенное использование системы контроля версий Git</li>
                 <li>Работа на уровне администратора Linux систем</li>
@@ -162,20 +173,23 @@
           </div>
         <h4>Иностранные языки</h4>
           <ul class="job-description">
-			  <li>Английский - Advanced C1</li>
-			  <li>Румынский - Upper Intermediate B2</li>
-		  </ul>
+           <li>Русский - Native</li>
+           <li>Английский - Advanced C1</li>
+			     <li>Румынский - Upper Intermediate B2</li>
+		      </ul>
       </section>
-      <section>
+      <section id="interests">
         <h3>Интересы и Другие Увлечения</h3>
-		<ul class="job-description">
-			<li>Торговля криптовалютой: заработал $20K за 1 год</li>
-			<li>Кейс чемпионаты: HQ 15% Oliver Wyman, HQ 25% McKinsey Business Diving </li>
-			<li>Путешествия: посетил 24 страны, жил в двух странах</li>
-			<li>Спорт: сноуборд, баскетбол, вэйксерфинг</li>
-		</ul>
+        <ul class="job-description">
+          <li>Торговля криптовалютой: заработал $20K за 1 год</li>
+          <li>Кейс чемпионаты: HQ 15% Oliver Wyman, HQ 25% McKinsey Business Diving </li>
+          <li>Путешествия: посетил 24 страны, жил в двух странах</li>
+          <li>Спорт: сноуборд, баскетбол, вэйксерфинг</li>
+        </ul>
       </section>
     </main>
-    <footer></footer>
   </body>
-</html>
+
+  
+
+

@@ -80,6 +80,21 @@ main section:not(:last-child) {
   text-align: center;
 } 
 
+.fab1 {
+  position: relative;
+  border-radius: 130px;
+  font-size: 1.3em;
+  font-weight: bold;
+  width: 1.5em;
+  height: 1.5em;
+  line-height: 1.5em;
+  margin: 5px;
+  text-align: center;
+  color: white;
+  max-width: 40%;
+  left:45%;
+} 
+
 a .fab {
   color: white;
 }
