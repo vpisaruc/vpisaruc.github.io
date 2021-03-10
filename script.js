@@ -7,7 +7,7 @@ en : {
   fio: "Pisaruc Victor",
   bio: "23 years old<br>Higher education<br>Moscow<br>Citezenship: Republic of Moldova",
   w_exp: "Work experience",
-  w_pl1: "<span>11.2020 - Present</span> <strong>DOM.RF Bank»</strong> <br> <strong>Department:</strong> Mortgage business <br> <strong>Position:</strong> Head of department",
+  w_pl1: "<span>11.2020 - Present</span> <strong>«DOM.RF Bank»</strong> <br> <strong>Department:</strong> Mortgage business <br> <strong>Position:</strong> Head of department",
   jd_1: "<p><strong>Duties:</strong></p> <ul class=\"job-description\"> <li>Launching cross-selling model on a mortgage process</li> <li>Creation of a process of logging work with a mortgage application</li> <li>Calculation of financial metrics: CR, CD, EL, EVA, ROA etc.</li> <li>Creation of analytical dashboards</li> <li>Managing a business-analysts team</li> <li>Managing teamwork in Jira, Confluence</li> <li>Participation in budget assessment of a business unit</li> </ul>",
   w_pl2: "<span>08.2020 - 11.2020</span> <strong>«Tinkoff Bank»</strong> <br> <strong>Department:</strong> IT Development division <br> <strong >Position:</strong> Business analyst ",
   jd_2: `<p><strong>Duties:</strong></p>
