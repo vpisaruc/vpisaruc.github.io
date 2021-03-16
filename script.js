@@ -105,7 +105,14 @@ interests:`<h3>Interests and Other Hobbies</h3>
     <li>Travelling: visited 24 countries, lived in two countries </li>
     <li>Sports: snowboarding, basketball, wakesurfing</li>
   </ul>
+</section>`,
+download: `<div class="block-download">
+<a class="download-link" href="pdf/Pisaruc_Victor_CV_en.pdf" target="_blank" download name="resume-download">
+  <img class="download-image" src="./img/document.svg">
+  <br><p name="resume-text">download cv</p></a>
+</div>
 </section>`
+
 },
 ru : {
   fio:"Писарук Виктор",
@@ -210,6 +217,12 @@ interests:`<h3>Интересы и Другие Увлечения</h3>
     <li>Путешествия: посетил 24 страны, жил в двух странах</li>
     <li>Спорт: сноуборд, баскетбол, вэйксерфинг</li>
   </ul>
+</section>`,
+download: `<div class="block-download">
+<a class="download-link" href="pdf/Pisaruc_Victor_CV_en.pdf" target="_blank" download name="resume-download">
+  <img class="download-image" src="./img/document.svg">
+  <br><p name="resume-text">скачать резюме</p></a>
+</div>
 </section>`
 }
 };
@@ -231,6 +244,7 @@ if (window.location.hash)
     add_ed.innerHTML = language.en.add_ed;
     skills.innerHTML = language.en.skills;
     interests.innerHTML = language.en.interests;
+    download.innerHTML = language.en.download;
   }
   if (window.location.hash === "#ru"){
     fio.innerHTML = language.ru.fio;
@@ -248,6 +262,7 @@ if (window.location.hash)
     add_ed.innerHTML = language.ru.add_ed;
     skills.innerHTML = language.ru.skills;
     interests.innerHTML = language.ru.interests;
+    download.innerHTML = language.ru.download;
   }
 }
 
