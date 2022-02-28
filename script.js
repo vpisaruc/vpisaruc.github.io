@@ -5,9 +5,22 @@ var dataReload = document.querySelectorAll("[data-reload]");
 var language = {
 en : {
   fio: "Pisaruc Victor",
-  bio: "23 years old<br>Higher education<br>Moscow<br>Citizenship: Republic of Moldova",
+  bio: "Lead Product Analyst<br>24 years old<br>Moscow<br>Citizenship: Republic of Moldova",
   w_exp: "Work experience",
-  w_pl1: "<span>11.2020 - Present</span> <strong>«DOM.RF Bank»</strong> <br> <strong>Department:</strong> Mortgage business <br> <strong>Position:</strong> Head of department",
+  w_pl0: `<span>07.2021 - Present</span> <strong>OZON</strong> <br> <strong>Department:</strong> OZON Marketplace <br> <strong>Position:</strong> Senior product analyst`,
+  jd_0: `<p><strong>Duties:</strong></p>
+          <ul class="job-description">
+            <li>Lead of product analytics team </li>
+            <li>Creation a product KPI system</li>
+            <li>Creation an actionable dashboard system</li>
+            <li>Creation a feature prioritization methodology</li>
+            <li>Search for growth points of a product</li>
+            <li>Building an analytical DWH architecture</li>
+            <li>Interaction with the IT team to cover the product with analytics</li>
+            <li>Setting up and running A/B tests </li>
+            <li>Coaching the product team on the Data Driven approach</li> 
+          </ul>`,
+  w_pl1: "<span>11.2020 - 07.2021</span> <strong>«DOM.RF Bank»</strong> <br> <strong>Department:</strong> Mortgage business <br> <strong>Position:</strong> Head of Analytics",
   jd_1: "<p><strong>Duties:</strong></p> <ul class=\"job-description\"> <li>Launching cross-selling model on a mortgage process</li> <li>Creation of a process of logging work with a mortgage application</li> <li>Calculation of financial metrics: CR, CD, EL, EVA, ROA etc.</li> <li>Creation of analytical dashboards</li> <li>Managing a business-analysts team</li> <li>Managing teamwork in Jira, Confluence</li> <li>Participation in budget assessment of a business unit</li> </ul>",
   w_pl2: "<span>08.2020 - 11.2020</span> <strong>«Tinkoff Bank»</strong> <br> <strong>Department:</strong> IT Development division <br> <strong >Position:</strong> Business analyst ",
   jd_2: `<p><strong>Duties:</strong></p>
@@ -43,7 +56,15 @@ en : {
   </article>`,
   add_ed: `        
         <h3>Additional education</h3>
-        <article class='course'>
+      <article class='course'>
+        <div class='title'>
+          <h4>Product course by Ilya Krasinsky</h4>
+        </div>
+        <div class="descrition">
+          <p>«Product Heroes»</p>
+        </div>
+      </article> 
+      <article class='course'>
           <div class='title'>
             <h4>Stanford University Online Course</h4>
           </div>
@@ -72,19 +93,23 @@ en : {
     <div>
       <div class='column'>
         <ul class="job-description">
-          <li>Programming languages at an advanced level: Python, C/C++, C#</li>
-          <li>Advanced user of visualization tools: SAP and Tableau</li>
+        <li>Building product KPI systems</li>
+        <li>Launching and evaluating A/B tests </li>
+        <li>Assessing the unit economy and looking for growth areas</li>
+        <li>Employee training</li>
+        <li>Ability to decompose and delegate tasks </li>
+        <li>Strong knowledge of SQL</li>
+        <li>Creating ETL processes: Airflow</li>
+        <li>Working with relational databases: Vertica, MySQL, MsSQL, Oracle, PostgreSQL, GreenPlum</li>
+        <li>Working with big data: Hadoop, Hive, Clickhouse, Spark</li>
+        <li>Advanced user of visualization tools: Tableau, SAP</li>
+        <li>Working with non-relational databases: Casandra</li>
+        <li>Good knowledge of IDEF0-diagrams, UML-diagrams,bpmn-notation</li>
+        <li>Programming languages at an advanced level: Python, C/C++, C#</li>
           <li>Working with api methods: Postman, SoapUI, BloomRPC </li>
-                  <li>Good knowledge of IDEF0-diagrams, UML-diagrams,bpmn-notation</li>
           <li>Jira, Confluence skills and their internal configuration </li>
-          <li>Strong knowledge of SQL</li>
-          <li>Working with relational databases: MySQL, MsSQL, Oracle, PostgreSQL, GreenPlum</li>
-          <li>Working with big data: Hadoop, Hive</li>
-          <li>Working with non-relational databases: Casandra</li>
           <li>Knowledge of financial metrics </li>
-          <li>Launching and evaluating A/B, A/B/C tests </li>
-          <li>Ability to decompose and delegate tasks </li>
-                  <li>Machine learning skills </li>
+          <li>Machine learning skills </li>
           <li>Knowledge of the main programming paradigms: Imperative, Object Oriented, Functional and Logical </li>
           <li>Strong user of the Git version control tool</li>
           <li>Linux systems administration </li>
@@ -116,10 +141,32 @@ download: `<div class="block-download">
 },
 ru : {
   fio:"Писарук Виктор",
-  bio:"23 года<br>Высшее образование<br>Москва<br>Гражданство: Молдова",
+  bio:"Ведущий Продуктовый Аналитик<br>24 года<br>Москва<br>Гражданство: Молдова",
   w_exp: "Опыт работы",
-  w_pl1:"<span>11.2020 - Н. В.</span> <strong>АО «Банк ДОМ.РФ»</strong> <br> <strong>Отдел:</strong> Проекты ипотечного бизнеса <br> <strong>Позиция:</strong> Руководитель направления",
-  jd_1: "<p><strong>Обязанности:</strong></p> <ul class=\"job-description\"> <li>Запуск процесса кросс продаж розничных продуктов на ипотечном пути</li> <li>Построения процесса логирования работы с ипотечной заявкой</li> <li>Расчет финансовых метрик CR, CD, EL, EVA, ROA и др.</li> <li>Построение аналитической отчетности </li> <li>Управление командой бизнес-аналитиков</li> <li>Организация работы команды в Jira, Confluence</li> <li>Участие в оценке бюджета подразделения</li> </ul>",
+  w_pl0: `<span>07.2021 - Н.В.</span> <strong>OZON</strong> <br> <strong>Отдел:</strong> OZON Marketplace <br> <strong>Позиция:</strong> Ведущий продуктовый аналитик`,
+  jd_0: `<p><strong>Обязанности:</strong></p>
+          <ul class="job-description">
+            <li>Управление командой продуктовой аналитики</li>
+            <li>Создание системы KPI продукта</li>
+            <li>Создание системы actionable дашбордов</li>
+            <li>Создание системы приоритизации фичей </li>
+            <li>Поиск точек роста продукта</li>
+            <li>Построение архитектуры аналитического хранилища</li>
+            <li>Взаимодействие с IT командой для покрытия продукта аналитикой</li>
+            <li>Постановка и запуск A/B тестов</li>
+            <li>Обучение продуктовой команды Data Driven подходу</li>
+          </ul>`,
+  w_pl1:"<span>11.2020 - 07.2021</span> <strong>АО «Банк ДОМ.РФ»</strong> <br> <strong>Отдел:</strong> Проекты ипотечного бизнеса <br> <strong>Позиция:</strong> Руководитель направления аналитики",
+  jd_1: `<p><strong>Обязанности:</strong></p>
+          <ul class="job-description">
+            <li>Запуск процесса кросс продаж розничных продуктов на ипотечном пути</li>
+            <li>Построения процесса логирования работы с ипотечной заявкой</li>
+            <li>Расчет финансовых метрик CR, CD, EL, EVA, ROA и др.</li>
+            <li>Построение аналитической отчетности </li>
+            <li>Управление командой бизнес-аналитиков</li>
+            <li>Организация работы команды в Jira, Confluence</li>
+            <li>Участие в оценке бюджета подразделения</li>
+          </ul>`,
   w_pl2: "<span>08.2020 - 11.2020</span> <strong>АО «Тинькофф Банк»</strong> <br> <strong>Отдел:</strong> Отдел развития <br> <strong >Позиция:</strong> Бизнес-аналитик",
   jd_2: `<p><strong>Обязанности:</strong></p>
       <ul class="job-description">
@@ -156,6 +203,14 @@ ru : {
   add_ed: `        
         <h3>Дополнительное образование</h3>
         <article class='course'>
+            <div class='title'>
+              <h4>Продуктовый курс Ильи Красинского</h4>
+            </div>
+            <div class="descrition">
+              <p>«Product Heroes»</p>
+            </div>
+          </article>
+        <article class='course'>
           <div class='title'>
             <h4>Онлайн курс Standfor University</h4>
           </div>
@@ -163,7 +218,7 @@ ru : {
             <p>«Машинное зрение CS231N»</p>
           </div>
         </article>
-    <article class='course'>
+      <article class='course'>
           <div class='title'>
             <h4>Онлайн курс</h4>
           </div>
@@ -171,7 +226,7 @@ ru : {
             <p>«Теория Игр»</p>
           </div>
         </article>
-    <article class='course'>
+      <article class='course'>
           <div class='title'>
             <h4>Онлайн курс</h4>
           </div>
@@ -184,19 +239,23 @@ skills: `<h3>Профессиональные навыки</h3>
     <div>
       <div class='column'>
         <ul class="job-description">
-          <li>Языки программирования на уверенном уровне: Python, C/C++, C#</li>
-          <li>Продвинутый пользователь инструментов визуализации SAP и Tableau</li>
-          <li>Работа с api-методами: Postman, SoapUI, BloomRPC</li>
-                  <li>Знание IDEF0, UML-диаграмм,bpm-нотаций</li>
-          <li>Навыки работы в Jira, Confluence и его внутренняя настройка</li>
-          <li>Уверенное знание SQL</li>
-          <li>Работа с реляционными базами данных: MySQL, MsSQL, Oracle, PostgreSQL, GreenPlum</li>
-          <li>Работа с большими данными: Hadoop, Hive</li>
-          <li>Работа с нереляционными базами данных: Casandra</li>
-          <li>Знание основных финансовых метрик</li>
+          <li>Построение систем продуктовых KPI</li>
           <li>Запуск и оценка А/Б тестов</li>
+          <li>Оценка юнит-экономики и поиск точек роста</li>
+          <li>Обучение сотрудников</li>
           <li>Умение декомпозировать и делегировать задачи</li>
-                  <li>Навыки работы с машинным обучением</li>
+          <li>Уверенное знание SQL</li>
+          <li>Создание ETL процессов: Airflow</li>
+          <li>Работа с реляционными базами данных: Vertica, MySQL, MsSQL, Oracle, PostgreSQL, GreenPlum</li>
+          <li>Работа с большими данными: Hadoop, Hive, Clickhouse, Spark</li>
+          <li>Продвинутый пользователь инструментов визуализации: Tableau, SAP </li>
+          <li>Знание IDEF0, UML-диаграмм,bpm-нотаций</li>
+          <li>Языки программирования на уверенном уровне: Python, C/C++, C#</li>
+          <li>Работа с api-методами: Postman, SoapUI, BloomRPC</li>
+          <li>Навыки работы в Jira, Confluence и его внутренняя настройка</li>
+          <li>Работа с нереляционными базами данных: Casandra</li>
+          <li>Знание финансовых метрик</li>
+          <li>Навыки работы с машинным обучением</li>
           <li>Знание основных парадигм программирования: Императивного, Объектно Ориентированного, Функционального и Логического</li>
           <li>Уверенное использование системы контроля версий Git</li>
           <li>Работа на уровне администратора Linux систем</li>
@@ -204,18 +263,18 @@ skills: `<h3>Профессиональные навыки</h3>
         </ul>
       </div>
     </div>
-  <h4>Иностранные языки</h4>
+    <h4>Иностранные языки</h4>
     <ul class="job-description">
-  <li>Русский - Native</li>
-  <li>Английский - Advanced C1</li>
-        <li>Румынский - Upper Intermediate B2</li>
+    <li>Русский - Native</li>
+    <li>Английский - Advanced C1</li>
+    <li>Румынский - Upper Intermediate B2</li>
     </ul>`, 
 interests:`<h3>Интересы и Другие Увлечения</h3>
   <ul class="job-description">
     <li>Торговля криптовалютой: заработал $20K за 1 год</li>
     <li>Кейс чемпионаты: HQ 15% Oliver Wyman, HQ 25% McKinsey Business Diving </li>
     <li>Путешествия: посетил 24 страны, жил в двух странах</li>
-    <li>Спорт: сноуборд, баскетбол, вэйксерфинг</li>
+    <li>Спорт: сноуборд, баскетбол, вэйкборд</li>
   </ul>
 </section>`,
 download: `<div class="block-download">
@@ -232,6 +291,8 @@ if (window.location.hash)
     fio.innerHTML = language.en.fio;
     bio.innerHTML = language.en.bio;
     w_exp.innerHTML = language.en.w_exp;
+    w_pl0.innerHTML = language.en.w_pl0;
+    jd_0.innerHTML = language.en.jd_0;
     w_pl1.innerHTML = language.en.w_pl1;
     jd_1.innerHTML = language.en.jd_1;
     w_pl2.innerHTML = language.en.w_pl2;
@@ -250,6 +311,8 @@ if (window.location.hash)
     fio.innerHTML = language.ru.fio;
     bio.innerHTML = language.ru.bio;
     w_exp.innerHTML = language.ru.w_exp;
+    w_pl0.innerHTML = language.ru.w_pl0;
+    jd_0.innerHTML = language.ru.jd_0;
     w_pl1.innerHTML = language.ru.w_pl1;
     jd_1.innerHTML = language.ru.jd_1;
     w_pl2.innerHTML = language.ru.w_pl2;
