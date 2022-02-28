@@ -21,7 +21,7 @@ en : {
             <li>Coaching the product team on the Data Driven approach</li> 
           </ul>`,
   w_pl1: "<span>11.2020 - 07.2021</span> <strong>«DOM.RF Bank»</strong> <br> <strong>Department:</strong> Mortgage business <br> <strong>Position:</strong> Head of Analytics",
-  jd_1: "<p><strong>Duties:</strong></p> <ul class=\"job-description\"> <li>Launching cross-selling model on a mortgage process</li> <li>Creation of a process of logging work with a mortgage application</li> <li>Calculation of financial metrics: CR, CD, EL, EVA, ROA etc.</li> <li>Creation of analytical dashboards</li> <li>Managing a business-analysts team</li> <li>Managing teamwork in Jira, Confluence</li> <li>Participation in budget assessment of a business unit</li> </ul>",
+  jd_1: "<p><strong>Duties:</strong></p> <ul class=\"job-description\"> <li>Launch of a cross-sell model on a mortgage process</li> <li>Creation of a process of logging work regarding a mortgage application</li> <li>Calculation of financial metrics: CR, CD, EL, EVA, ROA etc.</li> <li>Creation of analytical dashboards</li> <li>Managing a business-analysts team</li> <li>Managing teamwork in Jira, Confluence</li> <li>Participation in budget assessment of a business unit</li> </ul>",
   w_pl2: "<span>08.2020 - 11.2020</span> <strong>«Tinkoff Bank»</strong> <br> <strong>Department:</strong> IT Development division <br> <strong >Position:</strong> Business analyst ",
   jd_2: `<p><strong>Duties:</strong></p>
       <ul class="job-description">
