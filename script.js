@@ -5,18 +5,18 @@ var dataReload = document.querySelectorAll("[data-reload]");
 var language = {
 en : {
   fio: "Pisaruc Victor",
-  bio: "Lead Product Analyst<br>24 years old<br>Moscow<br>Citizenship: Republic of Moldova",
+  bio: "Team Lead Product Analyst<br>26 years old<br>Moscow<br>Citizenship: Republic of Moldova",
   w_exp: "Work experience",
   w_pl0: `<span>07.2021 - Present</span> <strong>OZON</strong> <br> <strong>Department:</strong> OZON Marketplace <br> <strong>Position:</strong> Senior product analyst`,
   jd_0: `<p><strong>Duties:</strong></p>
           <ul class="job-description">
             <li>Lead of product analytics team </li>
             <li>Creation a product KPI system</li>
+            <li>Search for growth points of a product</li>
             <li>Creation an actionable dashboard system</li>
             <li>Creation a feature prioritization methodology</li>
-            <li>Search for growth points of a product</li>
             <li>Building an analytical DWH architecture</li>
-            <li>Interaction with the IT team to cover the product with analytics</li>
+            <li>Сovered the whole product with analytics markup</li>
             <li>Setting up and running A/B tests </li>
             <li>Coaching the product team on the Data Driven approach</li> 
           </ul>`,
