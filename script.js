@@ -7,7 +7,7 @@ en : {
   fio: "Pisaruc Victor",
   bio: "Team Lead Product Analyst<br>26 years old<br>Moscow<br>Citizenship: Republic of Moldova",
   w_exp: "Work experience",
-  w_pl0: `<span>07.2021 - Present</span> <strong>OZON</strong> <br> <strong>Department:</strong> OZON Marketplace <br> <strong>Position:</strong> Senior product analyst`,
+  w_pl0: `<span>07.2021 - Present</span> <strong>OZON</strong> <br> <strong>Department:</strong> OZON Classified <br> <strong>Position:</strong> Senior product analyst`,
   jd_0: `<p><strong>Duties:</strong></p>
           <ul class="job-description">
             <li>Lead of product analytics team </li>
