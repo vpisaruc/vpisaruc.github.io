@@ -25,7 +25,6 @@ window.onload = function() {
     w_pl2: "<span>08.2020 - 11.2020</span> <strong>«Tinkoff Bank»</strong> <br> <strong>Department:</strong> IT Development division <br> <strong >Position:</strong> Business analyst ",
     jd_2: `<p><strong>Duties:</strong></p>
         <ul class="job-description">
-<<<<<<< HEAD
           <li>Improvement of the architecture of the internal CRM system  </li>
           <li>Optimization of user communication channels </li>
           <li>Creation of an auto reporting system for partners offers </li>
@@ -50,31 +49,6 @@ window.onload = function() {
     <article>
       <div class='school'>
         <span>2016-2020</span> <strong>Bauman Moscow State Technical University</strong>
-=======
-        <li>Team management and employee training</li>
-        <li>Building product KPI systems</li>
-        <li>Assessing the unit economy and looking for product growth areas</li>
-        <li>Building a product analytics architecture from scratch</li>
-        <li>Launching and evaluating A/B tests </li>
-        <li>Strong SQL knowledge</li>
-        <li>Creating ETL processes: Airflow</li>
-        <li>Creating analytic packages</li>
-        <li>Programming languages at an advanced level: Python, C/C++</li>
-        <li>Working with relational databases: Vertica, MySQL, MsSQL, Oracle, PostgreSQL, GreenPlum</li>
-        <li>Working with big data: Hadoop, Hive, Clickhouse, Spark</li>
-        <li>Advanced user of visualization tools: Tableau, Superset, SAP</li>
-        <li>Working with non-relational databases: Casandra</li>
-        <li>Good knowledge of IDEF0-diagrams, UML-diagrams,bpmn-notation</li>
-          <li>Working with api methods: Postman, SoapUI, BloomRPC </li>
-          <li>Jira, Confluence skills and their internal configuration </li>
-          <li>Building financial models </li>
-          <li>Machine learning skills </li>
-          <li>Knowledge of the main programming paradigms: Imperative, Object Oriented, Functional and Logical </li>
-          <li>Strong user of the Git version control tool</li>
-          <li>Linux systems administration </li>
-          <li>Strong user of MS Office</li>
-        </ul>
->>>>>>> b216f84 (add work skills)
       </div>
       <div class="descrition">
         Bachelor, Software engineering
