@@ -280,7 +280,7 @@ window.onload = function() {
     </ul>
   </section>`,
   download: `<div class="block-download">
-  <a class="download-link" href="pdf/Pisaruc_Victor_CV_en.pdf" target="_blank" download name="resume-download">
+  <a class="download-link" href="pdf/Pisaruc_Victor_CV_ru.pdf" target="_blank" download name="resume-download">
     <img class="download-image" src="./img/document.svg">
     <br><p name="resume-text">скачать резюме</p></a>
   </div>
